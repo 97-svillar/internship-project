@@ -9,5 +9,5 @@ Feature: # Tests for Reelly Sign-in
     And Click on the Edit profile option
     Then Enter some test information in the input fields
     And Check the right information is present in the input fields
-#    And Check the “Close” and “Save Changes” buttons are available and clickable.
+    And Check the “Close” and “Save Changes” buttons are available and clickable
 
