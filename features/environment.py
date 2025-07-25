@@ -6,13 +6,15 @@ from app.application import Application
 
 
 def browser_init(context, scenario_name):
-    """
-    :param context: Behave context
-    """
-    context.driver = webdriver.Chrome()
+    # """
+    # :param context: Behave context
+    # """
+    # context.driver = webdriver.Chrome()
+
+    ### FIREFOX ###
+    context.driver = webdriver.Firefox()
 
     ### SAFARI ###
-    # context.driver = webdriver.Firefox()
     # context.driver = webdriver.Safari()
 
     ### HEADLESS MODE ####

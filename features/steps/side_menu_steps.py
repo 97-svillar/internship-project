@@ -7,3 +7,4 @@ from time import sleep
 @when("Click on the settings option")
 def click_settings(context):
     context.app.side_menu_page.click_settings(context)
+    sleep(5)

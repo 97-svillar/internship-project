@@ -33,3 +33,4 @@ def check_buttons_clickable(context):
     ), "Close button is not clickable"
     assert context.app.settings_page.is_element_clickable(*context.app.settings_page.SAVE_CHANGES_BTN
     ), "Save Changes button is not clickable"
+    sleep(5)
